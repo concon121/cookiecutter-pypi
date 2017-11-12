@@ -1,4 +1,4 @@
-from cookiecutter_serverless import world
+from {{cookiecutter.project_slug}} import world
 
 
 def test_world():

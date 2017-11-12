@@ -1,7 +1,7 @@
-Cookiecutter Serverless Template
+{{cookiecutter.project_name}}
 ================================
 
-Cookiecutter sample for sls development with python3
+{{cookiecutter.project_short_description}}
 
 .. toctree::
    :maxdepth: 2

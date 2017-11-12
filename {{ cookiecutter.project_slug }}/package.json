@@ -1,7 +1,7 @@
 {
   "name": "cookiecutter-serverless",
   "version": "0.0.1",
-  "description": "Cookiecutter sample for sls development with python3",
+  "description": "{{cookiecutter.project_short_description}}",
   "keywords": [
     "sls"
   ],

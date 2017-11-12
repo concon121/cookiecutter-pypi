@@ -25,11 +25,10 @@ napoleon_use_ivar = True
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'Cookiecutter Serverless Template'
-copyright = '2017, Connor Bray'
-author = 'Connor Bay'
-version = '0.0.1'
-release = '0.0.1'
+project = '{{cookiecutter.project_name}}'
+author = '{{cookiecutter.full_name}}'
+version = '{{cookiecutter.version}}'
+release = '{{cookiecutter.version}}'
 language = None
 exclude_patterns = []
 pygments_style = 'sphinx'
@@ -44,4 +43,4 @@ html_sidebars = {
         'donate.html',
     ]
 }
-htmlhelp_basename = 'cookiecutter_serverlessdoc'
+htmlhelp_basename = '{{cookiecutter.project_slug}}doc'

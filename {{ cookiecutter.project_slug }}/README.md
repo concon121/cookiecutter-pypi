@@ -1,2 +1,3 @@
 # cookiecutter-serverless
-cookiecutter template for a sls project
+
+{{cookiecutter.project_short_description}}

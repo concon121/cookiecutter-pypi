@@ -21,7 +21,7 @@ package:
 
 functions:
   hello:
-    handler: cookiecutter_serverless/world.invoke
+    handler: {{cookiecutter.project_slug}}/world.invoke
 
 plugins:
   - serverless-python-requirements

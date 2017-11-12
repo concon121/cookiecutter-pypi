@@ -1,0 +1,30 @@
+service: cookiecutter-serverless
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: eu-west-1
+#  deploymentBucket:
+#    name: my-premade-s3
+#    serverSideEncryption: AES256
+
+package:
+  exclude:
+    - .cache/**
+    - .tox/**
+    - bandit/**
+    - build/**
+    - dist/**
+    - docs/**
+    - node_modules/**
+    - tests/**
+
+functions:
+  hello:
+    handler: cookiecutter_serverless/world.invoke
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    fileName: requirements.txt

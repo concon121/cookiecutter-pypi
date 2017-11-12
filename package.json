@@ -1,0 +1,13 @@
+{
+  "name": "cookiecutter-serverless",
+  "version": "0.0.1",
+  "description": "Cookiecutter sample for sls development with python3",
+  "keywords": [
+    "sls"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/concon121/cookiecutter-serverless",
+  "dependencies": {
+    "serverless-python-requirements": "^3.0.7"
+  }
+}

@@ -1,10 +1,8 @@
 {
   "full_name": "Connor Bray",
   "email": "connor.bray@icloud.com",
-  "github_username": "concon121",
   "project_name": "Cookiecutter Serverless",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "Cookiecutter template for creating a serverless project with python3",
-  "pypi_username": "{{ cookiecutter.github_username }}",
   "version": "0.0.1"
 }

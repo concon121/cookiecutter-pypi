@@ -1,4 +1,4 @@
-service: cookiecutter-serverless
+service: {{cookiecutter.project_slug}}
 
 provider:
   name: aws

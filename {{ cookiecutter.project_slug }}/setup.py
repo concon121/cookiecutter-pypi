@@ -4,6 +4,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(
+    include_package_data=True,
     name='{{cookiecutter.project_slug}}',
     packages=['{{cookiecutter.project_slug}}'],
     version='{{cookiecutter.version}}',
